@@ -11,6 +11,12 @@
         "default": "./dist/index.d.ts"
       },
       "import": "./dist/index.js"
+    },
+    "./components/*": {
+      "types": {
+        "default": "./dist/components/*.d.ts"
+      },
+      "import": "./dist/components/*.js"
     }
   },
   "scripts": {
