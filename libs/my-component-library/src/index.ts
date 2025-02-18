@@ -1,2 +1,2 @@
-export { MyComponent } from './MyComponent'
-export { MyOtherComponent } from './MyOtherComponent'
+export { MyComponent } from './components/MyComponent'
+export { MyOtherComponent } from './components/MyOtherComponent'
