@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { Alert } from '@trussworks/react-uswds'
-import { MyComponent } from 'my-component-library'
+import { MyComponent, MyOtherComponent } from 'my-component-library'
 import './App.css'
 
 function App() {
@@ -8,11 +7,8 @@ function App() {
 
   return (
     <>
-      <Alert type="success" headingLevel="h4">
-        This is my test app
-      </Alert>
-
       <MyComponent />
+      <MyOtherComponent />
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
