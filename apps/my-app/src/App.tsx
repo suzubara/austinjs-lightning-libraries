@@ -1,11 +1,10 @@
-import { MyComponent, MyOtherComponent } from 'my-component-library'
+import { MyComponent} from 'my-component-library/components/MyComponent/index'
 import './App.css'
 
 function App() {
  return (
     <>
       <MyComponent />
-      <MyOtherComponent />
     </>
   )
 }
